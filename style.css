@@ -32,6 +32,7 @@ h3,
 p {
   font-family: futura;
   color: var(--light-blue);
+  margin: 5px;
 }
 
 h1 {
@@ -59,6 +60,18 @@ p {
   padding: 30px;
 }
 
+.gradient {
+  background: linear-gradient(
+    360deg,
+    #000 0%,
+    rgba(0, 0, 0, 0.84) 39.66%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: absolute;
+  width: 100%;
+  height: 215px;
+}
+
 .main {
   display: flex;
   align-items: center;
@@ -74,6 +87,7 @@ p {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
+  background-color: var(--light-blue);
 }
 
 div.scroll-container img {
@@ -81,8 +95,16 @@ div.scroll-container img {
 }
 
 .newsletter-container {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
   padding: 30px;
+}
+
+.newsletter-text {
+  text-align: center;
+  width: 50%;
 }
 
 table {
@@ -108,6 +130,28 @@ button {
 .book-now {
   display: flex;
   justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.footer-text {
+  justify-content: space-between;
+  text-align: center;
+  width: 177px;
+}
+
+.icons {
+  padding-top: 15px;
+}
+
+.icons img {
+  padding: 8px;
 }
 
 @media (max-width: 800px) {
