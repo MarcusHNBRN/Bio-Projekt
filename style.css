@@ -87,7 +87,7 @@ p {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
-  background-color: var(--light-blue);
+  background-color: var(--black);
 }
 
 div.scroll-container img {
