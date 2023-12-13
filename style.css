@@ -10,6 +10,11 @@
   --midnight-blue: #002439;
 }
 
+a {
+  text-decoration: none;
+  color: var(--light-blue);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -21,6 +26,11 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   height: 900px;
+}
+
+.movie-info {
+  max-width: 40%;
+  font-size: 16px;
 }
 
 .logo-top {
@@ -158,5 +168,8 @@ footer {
   .logotop {
     width: 63px;
     height: 52px;
+  }
+  .movie-info {
+    max-width: 100%;
   }
 }
